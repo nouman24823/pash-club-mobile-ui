@@ -57,16 +57,7 @@ const Header = () => {
           PASH·CLUB
         </span>
 
-        {/* Right — styled hamburger */}
-        <button
-          type="button"
-          aria-label="Open menu"
-          className="flex flex-col items-end justify-center gap-[4.5px] w-7 h-7 transition-all active:scale-95 cursor-pointer"
-        >
-          <span className="ham-line w-[17px] h-[1.5px] bg-[#B8923E] rounded-full"></span>
-          <span className="ham-line w-[11px] h-[1.5px] bg-[#B8923E] rounded-full opacity-65"></span>
-          <span className="ham-line w-[14px] h-[1.5px] bg-[#B8923E] rounded-full"></span>
-        </button>
+        <div></div>
       </div>
     </header>
   );
